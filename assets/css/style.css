@@ -20,7 +20,7 @@ a {
 }
 /* Hero section */
 #hero{
-    background-image: url('./IMG_20.jpg');
+    background-image: url('../images/IMG_20.jpg');
     background-size: cover;
     background-position: top right;
     position: relative;
