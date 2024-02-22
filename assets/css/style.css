@@ -109,7 +109,7 @@ a {
 
 /* skills section*/
 #skills .section-title{
-    font-size: 5rem;
+    font-size: 8rem;
     font-weight: 700;
     color: black;
     justify-content: center;
@@ -118,6 +118,7 @@ a {
     bottom: 0;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 100px;
 }
 #skills .section-title span{
     color: crimson;
@@ -127,28 +128,56 @@ a {
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
-
-.flex-container{
-    flex-basis: 50%;
+#skills h1 {
+    padding: 0;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.flex-container {
+    flex-basis:  70%;
     margin-top: -20%;
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-}
+    margin-bottom: 10px;
+    margin-left: 100px;
+} 
 .flex-box {
-    width: 150px;
-    height: 50px;
+    width: 230px;
+    height: 70px;
     background-color:crimson;
     color:black;
     font-size: 20px;
     text-align: center;
-    line-height: 50px;
-    border-radius: 5px;
-    margin: 4px;
+    align-items: center;
+    line-height: 70px;
+    border-radius: 8px;
+    margin: 9px;
+    align-items: center;
 }
+#skills h2 {
+    margin-top: -40px;
+    font-size: 5rem;
+    text-align: center;
+}
+#skills h2 span {
+    color: crimson;
+}
+#skills h3 {
+    margin-top: -300px;
+    font-size: 5rem;
+    text-align: center;
+}
+#skills h3 span {
+    color: crimson;
+}
+
 /* skills section*/
 
 /*about section*/
@@ -161,10 +190,11 @@ a {
     padding: 10Px 20px;
 }
 #about .section-title{
-    font-size: 5rem;
+    font-size: 8rem;
     font-weight: 700;
     color: black;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    margin-top: -250px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -224,7 +254,7 @@ a {
     margin: 0 auto;
 }
 #contact .section-title{
-    font-size: 5rem;
+    font-size: 8rem;
     font-weight: 700;
     color: black;
     margin-top: 100px;
