@@ -49,7 +49,8 @@ a {
 #hero{
     background-image: url('../images/IMG_20.jpg');
     background-size: cover;
-    background-position: center;
+    margin-top: -40px;
+    background-position: 390rem;
     position: relative;
     z-index: 1;
 }
@@ -148,7 +149,7 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 1200px;
-    margin-left: 70px;
+    margin-left: 50px;
 } 
 .flex-box {
     width: 280px;
