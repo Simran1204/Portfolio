@@ -18,11 +18,38 @@ a {
     align-items: center;
     justify-content: center;
 }
+.cta{
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border: 5px solid crimson;
+    font-size: 5rem;
+    font-weight: 300px;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    margin-top: 20px;
+    transition: .3s ease;
+    transition-property: background-color,color;
+}
+.cta:hover{
+    color:black;
+    background-color: crimson;
+}
+.brand h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: white;
+}
+.brand h1 span {
+    color:  crimson;
+}
+
 /* Hero section */
 #hero{
     background-image: url('../images/IMG_20.jpg');
     background-size: cover;
-    background-position: top right;
+    background-position: center;
     position: relative;
     z-index: 1;
 }
@@ -45,7 +72,7 @@ a {
 #hero h1{
     display:white;
     width: fit-content;
-    font-size: 4rem;
+    font-size: 9rem;
     position: relative;
     color: transparent;
     animation: text_reveal 1s ease forwards;
@@ -80,31 +107,6 @@ a {
 #hero h1:nth-child(3) span{
     animation-delay: 2.5s;
 }
-.cta{
-    display: inline-block;
-    padding: 10px 30px;
-    color: black;
-    background-color: transparent;
-    border: 2px solid crimson;
-    font-size: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 1rem;
-    margin-top: 20px;
-    transition: .3s ease;
-    transition-property: background-color,color;
-}
-.cta:hover{
-    color:black;
-    background-color: crimson;
-}
-.brand h1 {
-    font-size: 3rem;
-    text-transform: uppercase;
-    color: white;
-}
-.brand h1 span {
-    color:  crimson;
-}
 /* End Hero section*/
 
 /* skills section*/
@@ -138,22 +140,23 @@ a {
     margin-bottom: 30px;
 }
 .flex-container {
-    flex-basis:  70%;
-    margin-top: -20%;
+    flex-basis:  90%;
+    margin-top: -30%;
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-bottom: 10px;
-    margin-left: 100px;
+    margin-bottom: 1200px;
+    margin-left: 70px;
 } 
 .flex-box {
-    width: 230px;
+    width: 260px;
     height: 70px;
     background-color:crimson;
     color:black;
     font-size: 20px;
+    font-weight: 800;
     text-align: center;
     align-items: center;
     line-height: 70px;
@@ -163,15 +166,15 @@ a {
 }
 #skills h2 {
     margin-top: -40px;
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: center;
 }
 #skills h2 span {
     color: crimson;
 }
 #skills h3 {
-    margin-top: -300px;
-    font-size: 5rem;
+    margin-top: -1500px;
+    font-size: 6rem;
     text-align: center;
 }
 #skills h3 span {
@@ -194,7 +197,7 @@ a {
     font-weight: 700;
     color: black;
     margin-bottom: 40px;
-    margin-top: -250px;
+    margin-top: -1400px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -216,23 +219,25 @@ a {
     font-size: 3rem;
     font-weight: 500;
     letter-spacing: .2rem;
-    margin-bottom: 8px;
+    margin-bottom: 20px;
 }
 #about .col-right p {
-    font-size: 1.3rem;
-    margin-bottom: 10px;
+    font-size: 1rem;
+    margin-bottom: 40px;
     justify-content: right;
     text-align: justify;
 }
 #about .col-right .cta {
     color: black;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     padding: 10px 20px;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
+    font-weight: 100px;
 }
 #about .col-left  .about-img {
     position: absolute;
     align-items: left;
+    margin-top: 100px;
 }
 #about .col-left  .about-img::after {
     content: '';
@@ -249,7 +254,7 @@ a {
 
 /*contact section*/
 #contact .contact {
-    flex-direction: row;
+    flex-direction: column;
     max-width: 12000px;
     margin: 0 auto;
 }
@@ -257,8 +262,8 @@ a {
     font-size: 8rem;
     font-weight: 700;
     color: black;
-    margin-top: 100px;
-    margin-bottom: -100px;
+    margin-top: 150px;
+    margin-bottom: -400px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -266,15 +271,15 @@ a {
     color: crimson;
 }
 #contact .contact-items {
-    width: 350px;
+    width: 450px;
 }
 #contact .contact-item {
-    width: 80%;
+    width: 90%;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
     padding: 30px;
-    margin: 30px;
+    margin: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -283,23 +288,23 @@ a {
     transition: .3s ease box-shadow;
 }
 #contact .contact-item:hover {
-    box-shadow: 0px 0px 5px 0 #0000002c;
+    box-shadow: 0px 0px 5px 0 hsla(0, 0%, 0%, 0.173);
 }
 #contact .contact-icon {
     width: 70px;
     margin: 0 auto;
-    margin-bottom: 10px;
     margin-top: -33px;
 }
 #contact .contact-info h1 {
-    font-size: 2.5rem;
+    font-size: 20rem;
     font-weight: 500;
-    margin-bottom: 5px;
+    margin-bottom: -200px;
 }
 #contact .contact-info h2{
-    font-size: 1.3rem;
+    font-size: 5rem;
     line-height: 2rem;
     font-weight: 500;
+    margin-bottom: 100px;
 }
 /*end contact section*/
 
@@ -310,8 +315,10 @@ a {
 #footer .footer {
     min-height: 200px;
     flex-direction: column;
+    text-align: center;
     padding-top: 50px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
+    margin-top: -300px;
 
 }
 #footer h2 {
@@ -319,6 +326,7 @@ a {
     font-weight: 500;
     font-size: 1.8rem;
     letter-spacing: .1rem;
+    text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -370,58 +378,11 @@ a {
 @keyframes text_reveal_name{
     100%{
         color: crimson;
-        font-weight: 1700;
+        font-weight: 2000;
     }
     
 } 
 /*keyframes*/
 
 /*media  query for tablet*/
-@media only screen and (max-width:768px) {
-.cta {
-        font-size: 2.5rem;
-        padding: 20px 60px;
-}
-h1 .section-title {
-    font-size: 6rem;
-}
-
-/*hero*/
-#hwro h1 {
-    font-size: 7rem;
-}
-/*end hero*/
-
-/*skills*/
-.skills .skills-bottom .skills-iteam {
-    flex-basis: 45%;
-    margin: 2.5%;
-}
-/*end skills*/
-
-/*about*/
-#about .about {
-    flex-direction: row;
-}
-#about .col-left {
-    width: 600px;
-    height: 400px;
-    padding-left: 60px;
-}
-#about  .about .col-left .about-img::after {
-    left: -45px;
-    top: 34px;
-    height: 98%;
-    width: 98%;
-    border: 80px solid crimson;
-}
-#about .col-right {
-    text-align: left;
-    padding: 30px;
-}
-#about .col-right h1 {
-    text-align: left;
-}
-/*end about*/
-}
 /*end  media query for tablet*/
