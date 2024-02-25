@@ -385,5 +385,15 @@ a {
 } 
 /*keyframes*/
 
-/*media  query for tablet*/
-/*end  media query for tablet*/
+/* responsive */
+@media(max-width:998px) {
+    hero {
+        font-size: 55%;
+    }
+}
+@media(max-width:768px) {
+   skills {
+        font-size: 45%;
+    }
+}
+/* end responsive */
